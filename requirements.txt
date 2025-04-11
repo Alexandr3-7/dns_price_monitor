@@ -1,0 +1,8 @@
+Flask>=2.0
+undetected-chromedriver>=3.1.0 # Основная библиотека для браузера
+selenium>=4.0                 # Нужен для Options, By, WebDriverWait, EC
+beautifulsoup4>=4.9           # Для парсинга HTML
+requests                      # Для User-Agent или других запросов
+setuptools                    # Для совместимости с Python 3.12+
+waitress
+python-telegram-bot>=20.0 # Добавляем библиотеку для Telegram
